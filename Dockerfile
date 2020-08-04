@@ -1,4 +1,4 @@
-FROM python:3.8-alpine3.11
+FROM python:3.8-alpine3.12
 
 MAINTAINER Paul Podgorsek <ppodgorsek@users.noreply.github.com>
 LABEL description Robot Framework in Docker.
@@ -27,7 +27,7 @@ ENV ROBOT_GID 1000
 
 # Dependency versions
 ENV ALPINE_GLIBC 2.31-r0
-ENV CHROMIUM_VERSION 81.0
+ENV CHROMIUM_VERSION 83
 ENV DATABASE_LIBRARY_VERSION 1.2
 ENV FAKER_VERSION 5.0.0
 ENV FIREFOX_VERSION 68
